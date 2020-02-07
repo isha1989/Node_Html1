@@ -2,7 +2,7 @@ a:link{
     color:red;
 }
 a:hover{
-    text-emphasis-color: orange;
+    color: orange;
 }
 a:visited{
     color:purple;
@@ -18,9 +18,9 @@ section > h1{
 h1::first-letter{
     color:black;
 }
-p + p{
+p ~ p{
     color: darkgoldenrod;
 }
-li ~ li
+li + li
 {color: deeppink;
 }
