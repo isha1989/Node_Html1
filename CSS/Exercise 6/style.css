@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration-color: black;
+  }
+  h1{
+      font-size: 2em ;
+      
+  }
+  h2{
+      font-size: 1.5em;
+      
+  }
+  h1, h2{
+      color: #ddd;
+    text-shadow: 1px 2px 3px #666 ;
+    text-transform: uppercase;
+  }
+  p{
+      line-height: 1.4em;
+      text-indent: 0.8em;
+  }
+  .main{
+      text-align: justify;
+  }
+  .bold{
+      color: coral;
+      font-weight: bold;
+  }
+  #quote{
+      letter-spacing: 2px;
+      font-style: italic;
+      color: darkcyan;
+  }
+  .last{
+      text-align: right;
+      color: red;
+  }
+  .wrong{
+      text-decoration-line: line-through ; color: black;
+      font-size: 1.2em;
+      font-weight: 700;
+      
+  }
+  .google{
+    @font-face {
+        font-family: "Merriweather"";
+        src: url("https://fonts.google.com/specimen/Merriweather");
+      }
+      font-size: 1.6em;
+      color: purple;
+   
+  }
