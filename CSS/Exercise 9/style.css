@@ -1,12 +1,14 @@
 body
 {
 border: black solid 1px;
+
 }
 div
 {
     border: 1px solid red;
     padding: 10px;
     margin: 10px;
+    overflow: auto;
 
 }
 span
@@ -23,17 +25,21 @@ body{
 .box{
     width: 300px;
     height: 100px;
+    overflow: auto;
+    
 }
 .min
 {
     min-width: 100px;
     min-height:  10px;
+    
 
 }
 .max
 {
     max-width: 200px;
     max-height: 40px;
+    
 }
 .center
 {
