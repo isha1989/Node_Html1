@@ -9,7 +9,7 @@ switch (monthNumber) {
     case 1:
         monthName = "January";
         monthDays = 31;
-        console.log(`${monthName} is the selected month and has ${monthDays}`);
+      //  console.log(`${monthName} is the selected month and has ${monthDays}`);
         break;
     case 2:
         monthName = "Feb";
