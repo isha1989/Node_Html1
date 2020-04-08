@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Running http server
+    </title>
+
+    <script>
+        
+    let userName= prompt("enter user name");
+    let password= prompt("enter password");
+    alert(`Welcome ${userName}`);
+    let f= function()
+    {
+        let i= confirm(`Do you still want to be logged?`);
+        if(i)
+        {
+            prompt(`${userName} your session has been restored`);
+        }
+        else{
+            prompt(`${userName} your session has expaired`);
+        }
+    }
+    setTimeout(f, 10000);
+    </script>
+</head>
+
+<body>
+    
+</body>
+
+</html>
