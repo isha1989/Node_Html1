@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Selectors</title>
+    <script>
+        window.onload() = function () {
+            mainElement = document.getElementById("important");
+
+            console.log(mainElement);
+            const l = document.querySelectorAll(" ul li");
+            const u = document.querySelector("ul");
+            const p = document.querySelectorAll(".blue");
+            console.log(`list elements are ${l}, list is ${u} and blue class is ${p}`);
+        const blue= document.getElementsByClassName("blue");
+        } 
+    </script>
+</head>
+
+<body>
+    <h1>Welcome to JS Browser Side!!!</h1>
+    <p id="important">
+        In this course section we learn how to build interactive documents
+    </p>
+    <p>Also we're going to use HTML, CSS &amp; JavaScript</p>
+    <p class="blue">Look, a blue text</p>
+    <div>
+        <ul>
+            <li>
+                <a href="https://developer.mozilla.org/es/docs/DOM">MDN</a>
+            </li>
+            <li>
+                <a href="https://www.w3.org/DOM/">W3C</a>
+            </li>
+            <li>
+                <a href="https://www.w3schools.com/js/js_htmldom.asp">W3C School</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
