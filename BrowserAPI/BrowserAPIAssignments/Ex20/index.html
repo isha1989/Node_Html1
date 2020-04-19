@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Elements</title>
+    <script>
+        let a= document.querySelector("ul");
+        const ch= a.children;
+        console.log(ch);
+        let b= ch[1];
+        let c= ch[3];
+        
+        b.classList.add("green");
+        
+        c.classList.add("red");
+        console.log(b.parentElement);
+        console.log(c.parentElement);
+        c.parentElement.classList.add("orange");
+
+
+    </script>
+    <style>
+      .red {
+        color: red;
+      }
+
+      .green {
+        color: green;
+      }
+
+      .orange {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ul>
+  </body>
+</html>
