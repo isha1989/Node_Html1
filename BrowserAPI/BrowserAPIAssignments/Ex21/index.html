@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Elements</title>
+    <script>
+        let a = document.querySelector("ul li");
+        a.classList.add("orange");
+        let next= a.nextElementSibling;
+
+        let func = function () {
+            
+                
+                next.classList.add("orange");
+                let temp= next.nextElementSibling;
+                if(temp)
+                {
+                    next=temp;
+                    func();
+                }
+
+                
+            }
+            
+
+        
+
+
+        func();
+        let p = next.previousElementSibling;
+        let thirdItem = p[2];
+        thirdItem.classList.add("red");
+        let firstItem = p[1];
+        firstItem.classList.add("green");
+    </script>
+    <style>
+        .red {
+            color: red;
+        }
+
+        .green {
+            color: green;
+        }
+
+        .orange {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+</body>
+
+</html>
